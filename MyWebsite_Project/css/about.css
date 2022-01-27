@@ -1,0 +1,123 @@
+/*COLOR PALETTE
+-------BACKGROUND COLORS--------
+#03045e - dark blue (main page)
+#3e4e50 - dark slate grey (footer - contact page)
+#f4acb7 - pink (about me)
+#ccd5ae - green (project page)
+
+-------FONT COLORS--------
+#FFFFFF - white (main page)
+#000000 - black (project, about me page)
+#F5F5F5 - whitesmoke (links in footer)
+#F0FFF0 - honeydew-light greenish color (for nav links in header)
+#2F4F4F - darkslategray(for nav links in project, about me)
+*/
+
+/*Global Section
+--------------------------------------------------------------------------
+*/
+html{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.content-wrap{
+	max-width:800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/*Header
+--------------------------------------------------------------------------
+*/
+header{
+	background-color: #f4acb7;
+}
+
+.nav-bar{
+	list-style-type: none;
+	padding-top: 60px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bar a{
+	color: #2F4F4F;
+	padding: 20px 50px;
+	display: inline-block;
+	font-size: 23px;
+}
+
+.nav-bar a:hover{
+	color: rgb(47,79,79,50%);
+}
+
+/*Main Page
+--------------------------------------------------------------------------
+*/
+.main-body{
+	background-color: #f4acb7;
+	color: #000000;
+	
+}
+
+h1{
+	font-size: 80px;
+	line-height: 1;
+}
+
+h2{
+	font-size: 45px;
+}
+
+h1,h2{
+	font-family: 'Merienda', cursive;      /* "Lucida Handwriting", cursive; */
+}
+
+
+/*Projects
+--------------------------------------------------------------------------
+*/
+
+/*Footer/Contact
+--------------------------------------------------------------------------
+*/
+footer{
+	background-color: #3e4e50;
+	color: #F5F5F5;
+}
+
+footer a{
+	color: #F5F5F5;
+}
+
+footer a:hover{
+	color: rgb(245,245,245,50%);
+}
+
+.contact-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.contact-list a{
+	padding: 20px 50px;
+	display: inline-block;
+}
